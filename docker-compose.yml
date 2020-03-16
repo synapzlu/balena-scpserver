@@ -3,9 +3,9 @@ version: '2.1'
 # Summary of global ENV Variables to setup in Balena:
 # SCP_PASSWORD: balena
 
+# Define your own volumes or reuse existing ones if your are in a multicontainer setup
 volumes:
   volume_homeassistant:
-
 
 services:
   scp-server:
